@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import { useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
-import testimonialsJson from "./review.json"
+import testimonialsJson from "./review.json";
 import Image from "next/image";
 
 const StarRating = ({ rating }) => {
@@ -10,7 +10,9 @@ const StarRating = ({ rating }) => {
       {[...Array(5)].map((_, index) => (
         <span
           key={index}
-          className={`text-[30px] ${index < rating ? 'text-yellow-400' : 'text-gray-300'}`}
+          className={`text-[30px] ${
+            index < rating ? "text-yellow-400" : "text-gray-300 dark:text-gray-600"
+          }`}
         >
           ★
         </span>
@@ -21,7 +23,7 @@ const StarRating = ({ rating }) => {
 
 export default function TestimonialSection() {
   const [index, setIndex] = useState(0);
-  const testimonials = Object.values(testimonialsJson)
+  const testimonials = Object.values(testimonialsJson);
   const swipeHandlers = useSwipeable({
     onSwipedLeft: () => setIndex((prev) => (prev + 1) % testimonials.length),
     onSwipedRight: () =>
@@ -37,22 +39,30 @@ export default function TestimonialSection() {
     return () => clearInterval(timer);
   }, []);
 
-  const testimonial = Object.values(testimonials)[index];
+  const testimonial = testimonials[index];
 
   return (
     <section
       id="testimonials"
-      className="bg-white h-screen flex flex-col justify-center items-center px-6 md:px-16 scroll-mt-20"
+      className="bg-white dark:bg-gray-900 h-screen flex flex-col justify-center items-center px-6 md:px-16 scroll-mt-20 transition-colors duration-300"
       {...swipeHandlers}
     >
-      <h3 className="text-4xl font-semibold text-center text-gray-800 mb-12">
+      <h3 className="text-4xl font-semibold text-center text-gray-800 dark:text-white mb-12">
         What Our Patients Say
       </h3>
-      <div className="max-w-3xl bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-500 ease-in-out">
-        <Image src={testimonial.avatar} width={100} height={100} className="rounded-full justify-self-center" alt={`${testimonial.name}-avatar`} />
+      <div className="max-w-3xl bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-md transition-all duration-500 ease-in-out">
+        <Image
+          src={testimonial.avatar}
+          width={100}
+          height={100}
+          className="rounded-full justify-self-center"
+          alt={`${testimonial.name}-avatar`}
+        />
         <StarRating rating={parseInt(testimonial.stars)} />
-        <p className="text-lg italic text-gray-700 mb-4 whitespace-pre-line">“{testimonial.review}”</p>
-        <p className="text-right font-semibold text-gray-800">
+        <p className="text-lg italic text-gray-700 dark:text-gray-300 mb-4 whitespace-pre-line">
+          “{testimonial.review}”
+        </p>
+        <p className="text-right font-semibold text-gray-800 dark:text-white">
           — {testimonial.name}
         </p>
       </div>
@@ -61,8 +71,11 @@ export default function TestimonialSection() {
           <button
             key={i}
             onClick={() => setIndex(i)}
-            className={`w-3 h-3 rounded-full transition-colors duration-300 ${i === index ? "bg-gray-800" : "bg-gray-400"
-              }`}
+            className={`w-3 h-3 rounded-full transition-colors duration-300 ${
+              i === index
+                ? "bg-gray-800 dark:bg-white"
+                : "bg-gray-400 dark:bg-gray-600"
+            }`}
             aria-label={`Go to testimonial ${i + 1}`}
           />
         ))}

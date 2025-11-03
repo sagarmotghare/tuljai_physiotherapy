@@ -9,9 +9,9 @@ import TestimonialSection from "./TestimonialSection";
 
 export default function Home() {
 	return (
-		<div className="bg-white">
-			<HeroSection />
+		<div>
 			<Navbar />
+			<HeroSection />
 			<ClinicIntroSection />
 			<DoctorSection />
 			<StatisticsSection />

@@ -1,36 +1,48 @@
-const doctors = [
-    {
-        name: "Dr. Bharat Mahipal Motghare",
-        image: "/bharat.jpg",
-        qualification: "B.P.Th.",
-        description: "Worked with Ramakrishna Math Physiotherapy Unit Nagpur, Kingsway Hospital Nagpur",
-    },
-    {
-        name: "Dr. Karina Puri",
-        image: "https://i.pravatar.cc/150?img=5",
-        qualification: "B.P.Th.",
-        description: "Worked with Matru Seva Sangh Nagpur",
-    },
-];
-
 export default function DoctorSection() {
-    return <section className="bg-white py-12 px-6 md:px-16 scroll-mt-20" id="team">
-        <h3 className="text-4xl font-semibold text-center text-gray-800 mb-12">
-            Our Team
-        </h3>
-        <div className={`grid grid-cols-1 md:grid-cols-2 gap-12`}>
-            {doctors.map((doctor, index) => (
-                <div key={index} className="flex flex-col items-center text-center">
-                    <img
-                        src={doctor.image}
-                        alt={doctor.name}
-                        className="w-48 h-48 rounded-full object-cover shadow-md mb-4"
-                    />
-                    <h4 className="text-2xl font-bold mb-2 text-gray-800">{doctor.name}</h4>
-                    <p className="mb-2 text-gray-800">{doctor.qualification}</p>
-                    <p className="mb-4 text-gray-700 whitespace-pre-line">{doctor.description}</p>
-                </div>
-            ))}
-        </div>
-    </section>
+    const doctors = [
+        {
+            name: "Dr. Bharat Mahipal Motghare",
+            image: "/bharat.jpg",
+            qualification: "B.P.Th.",
+            description:
+                "Worked with Ramakrishna Math Physiotherapy Unit Nagpur, Kingsway Hospital Nagpur",
+        },
+        {
+            name: "Dr. Karina Puri",
+            image: "https://i.pravatar.cc/150?img=5",
+            qualification: "B.P.Th.",
+            description: "Worked with Matru Seva Sangh Nagpur",
+        },
+    ];
+
+    return (
+        <section
+            className="bg-white dark:bg-gray-900 py-12 px-6 md:px-16 scroll-mt-20 transition-colors duration-300"
+            id="team"
+        >
+            <h3 className="text-4xl font-semibold text-center text-gray-800 dark:text-white mb-12">
+                Our Team
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                {doctors.map((doctor, index) => (
+                    <div key={index} className="flex flex-col items-center text-center">
+                        <img
+                            src={doctor.image}
+                            alt={doctor.name}
+                            className="w-48 h-48 rounded-full object-cover shadow-md mb-4"
+                        />
+                        <h4 className="text-2xl font-bold mb-2 text-gray-800 dark:text-white">
+                            {doctor.name}
+                        </h4>
+                        <p className="mb-2 text-gray-800 dark:text-gray-300">
+                            {doctor.qualification}
+                        </p>
+                        <p className="mb-4 text-gray-700 dark:text-gray-400 whitespace-pre-line">
+                            {doctor.description}
+                        </p>
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
 }
