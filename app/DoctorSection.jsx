@@ -29,7 +29,7 @@ export default function DoctorSection() {
                         <img
                             src={doctor.image}
                             alt={doctor.name}
-                            className="w-48 h-48 rounded-full object-cover shadow-md mb-4"
+                            className="w-48 h-48 rounded-full object-cover shadow-md mb-4 border-white dark:border-black border"
                         />
                         <h4 className="text-2xl font-bold mb-2 text-gray-800 dark:text-white">
                             {doctor.name}
