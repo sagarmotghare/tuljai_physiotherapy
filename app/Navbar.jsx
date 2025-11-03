@@ -2,13 +2,22 @@
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 
+const links = [
+  { title: "Services", href: "#services" },
+  { title: "Treatement Conditions", href: "#conditions" },
+  { title: "Statistics", href: "#stats" },
+  { title: "Team", href: "#team" },
+  { title: "Testimonials", href: "#testimonials" },
+  { title: "About", href: "#about" },
+]
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-md dark:shadow-lg px-6 md:px-16 py-4 transition-colors duration-300">
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2">
+        <a className="flex items-center gap-2 cursor-pointer" href="/">
           <img
             src="/logo-min.webp"
             alt="Clinic Logo"
@@ -17,14 +26,16 @@ export default function Navbar() {
           <span className="text-xl font-semibold text-gray-800 dark:text-white">
             Tuljai Physiotherapy Clinic
           </span>
-        </div>
+        </a>
 
         {/* Desktop Nav Links */}
         <div className="hidden md:flex gap-6 text-gray-600 dark:text-gray-300 text-sm">
-          <a href="#team" className="hover:text-gray-900 dark:hover:text-white">Team</a>
-          <a href="#stats" className="hover:text-gray-900 dark:hover:text-white">Statistics</a>
-          <a href="#testimonials" className="hover:text-gray-900 dark:hover:text-white">Testimonials</a>
-          <a href="#about" className="hover:text-gray-900 dark:hover:text-white">About</a>
+          {links.map((l, index) => <a
+            key={index}
+            href={l.href}
+            className="hover:text-gray-900 dark:hover:text-white">
+            {l.title}
+          </a>)}
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -40,9 +51,13 @@ export default function Navbar() {
       {/* Mobile Nav Links */}
       {isOpen && (
         <div className="md:hidden mt-4 flex flex-col gap-4 text-gray-600 dark:text-gray-300 text-sm">
-          <a href="#doctors" className="hover:text-gray-900 dark:hover:text-white" onClick={() => setIsOpen(false)}>Doctors</a>
-          <a href="#testimonials" className="hover:text-gray-900 dark:hover:text-white" onClick={() => setIsOpen(false)}>Testimonials</a>
-          <a href="#contact" className="hover:text-gray-900 dark:hover:text-white" onClick={() => setIsOpen(false)}>Contact</a>
+          {links.map((l, index) => <a
+            key={index}
+            href={l.href}
+            className="hover:text-gray-900 dark:hover:text-white"
+            onClick={() => setIsOpen(false)}>
+            {l.title}
+          </a>)}
         </div>
       )}
     </nav>

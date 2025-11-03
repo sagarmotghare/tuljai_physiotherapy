@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <div
-      className="h-screen flex items-center justify-center relative bg-clinic bg-cover bg-center bg-no-repeat"
+      className="h-screen flex items-center justify-center relative bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: "url('/inauguration-min.webp')" }}
     >
       {/* Overlay */}

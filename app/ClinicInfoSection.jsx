@@ -34,6 +34,28 @@ export default function ClinicInfoSection() {
               <FiMail /> tuljaiphysiotherapy@gmail.com
             </a>
           </p>
+
+          <p>
+            <strong className="font-semibold text-gray-800 dark:text-white mb-2">Follow us on:</strong>
+            <div className="flex gap-4 text-gray-600 dark:text-gray-300 text-lg">
+              <a
+                href="https://www.instagram.com/tuljaiphysiotherapyclinic"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-pink-500"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://wa.me/919552878890"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-green-600"
+              >
+                <FaWhatsapp />
+              </a>
+            </div>
+          </p>
         </div>
 
         <div className="w-full h-64 md:h-80">
@@ -48,28 +70,6 @@ export default function ClinicInfoSection() {
             referrerPolicy="no-referrer-when-downgrade"
             className="rounded-md shadow-md"
           />
-        </div>
-      </div>
-
-      <div className="pt-4">
-        <p className="font-semibold text-gray-800 dark:text-white mb-2">Follow us on:</p>
-        <div className="flex gap-4 text-gray-600 dark:text-gray-300 text-lg">
-          <a
-            href="https://www.instagram.com/tuljaiphysiotherapyclinic"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-pink-500"
-          >
-            <FaInstagram />
-          </a>
-          <a
-            href="https://wa.me/919552878890"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-green-600"
-          >
-            <FaWhatsapp />
-          </a>
         </div>
       </div>
     </section>
