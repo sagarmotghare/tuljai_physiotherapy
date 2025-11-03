@@ -17,9 +17,10 @@ export default function Navbar() {
 
         {/* Desktop Nav Links */}
         <div className="hidden md:flex gap-6 text-gray-600 text-sm">
-          <a href="#doctors" className="hover:text-gray-900">Doctors</a>
+          <a href="#team" className="hover:text-gray-900">Team</a>
+          <a href="#stats" className="hover:text-gray-900">Statistics</a>
           <a href="#testimonials" className="hover:text-gray-900">Testimonials</a>
-          <a href="#contact" className="hover:text-gray-900">Contact</a>
+          <a href="#about" className="hover:text-gray-900">About</a>
         </div>
 
         {/* Mobile Menu Toggle */}

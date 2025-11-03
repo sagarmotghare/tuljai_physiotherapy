@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,16 +12,49 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Tuljai Physiotherapy Clinic – Healing with Care in Saoner",
-  description: "Welcome to Tuljai Physiotherapy Clinic, your trusted destination for personalized rehabilitation and pain management in Saoner. Led by experienced professionals, we offer evidence-based treatments for musculoskeletal, neurological, and post-surgical conditions. Whether you're recovering from injury or seeking long-term wellness, our compassionate team is here to support your journey to better mobility and a pain-free life. Discover holistic care, modern techniques, and a healing environment designed around you.",
+  title: 'Tuljai Physiotherapy Clinic | Expert Physiotherapy in Saoner, Nagpur',
+  description:
+    'Get personalized physiotherapy care at Tuljai Physiotherapy Clinic in Saoner. Led by experienced therapists, we offer effective treatments for pain relief and rehabilitation. Book your appointment today!',
+  keywords: [
+    'Physiotherapy clinic in Saoner',
+    'Best physiotherapist in Nagpur',
+    'Tuljai Physiotherapy reviews',
+    'Pain relief physiotherapy Saoner',
+    'Dr. Bharat Motghare physiotherapist',
+    'Rehabilitation center near Nagpur',
+  ],
+  authors: [{ name: 'Tuljai Physiotherapy Clinic' }],
+  creator: 'Tuljai Physiotherapy',
+  openGraph: {
+    title: 'Tuljai Physiotherapy Clinic',
+    description:
+      'Expert physiotherapy care in Saoner, Nagpur. Book your appointment today!',
+    url: 'https://tuljai-physiotherapy.vercel.app/',
+    siteName: 'Tuljai Physiotherapy',
+    images: [
+      {
+        url: '/logo-min.webp',
+        width: 800,
+        height: 600,
+        alt: 'Tuljai Physiotherapy Logo',
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  metadataBase: new URL('https://tuljai-physiotherapy.vercel.app'),
+  alternates: {
+    canonical: '/',
+  },
+  appleWebApp: {
+    title: "Tuljai Physiotherapy Clinic",
+    statusBarStyle: "default",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

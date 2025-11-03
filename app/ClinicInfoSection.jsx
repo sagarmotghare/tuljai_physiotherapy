@@ -1,11 +1,12 @@
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaMailBulk, FaMailchimp, FaPhone, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 
 export default function ClinicInfoSection() {
-    return <section className="bg-gray-100 py-12 px-6 md:px-16 scroll-mt-20" id="contact">
+    return <section className="bg-gray-100 py-12 px-6 md:px-16 scroll-mt-20" id="about">
         <h3 className="text-3xl font-semibold text-center text-gray-800 mb-8">
-            Clinic Information
+            About Us
         </h3>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <div className="text-gray-700 space-y-4">
                 <p>
@@ -22,8 +23,12 @@ export default function ClinicInfoSection() {
                 </p>
                 <p>
                     <strong>Contact:</strong><br />
-                    📞 +91 95528 78890<br />
-                    📧 tuljaiphysiotherapy@gmail.com
+                    <a className="flex gap-2 items-center w-fit" href="tel:+919552878890">
+                        <FaPhoneAlt /> +91 95528 78890
+                    </a>
+                    <a className="flex gap-2 items-center w-fit" href="mailto:tuljaiphysiotherapy@gmail.com">
+                        <FiMail /> tuljaiphysiotherapy@gmail.com
+                    </a>
                 </p>
             </div>
 
@@ -42,19 +47,20 @@ export default function ClinicInfoSection() {
             </div>
         </div>
 
-        {/* <div className="pt-4">
+        <div className="pt-4">
             <p className="font-semibold text-gray-800 mb-2">Follow us on:</p>
             <div className="flex gap-4 text-gray-600 text-lg">
-                <a href="https://facebook.com/tuljaiphysiotherapy" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
-                    <FaFacebook />
-                </a>
-                <a href="https://instagram.com/tuljaiphysiotherapy" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+                <a
+                    href="https://www.instagram.com/tuljaiphysiotherapyclinic"
+                    target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
                     <FaInstagram />
                 </a>
-                <a href="https://wa.me/919552878890" target="_blank" rel="noopener noreferrer" className="hover:text-green-600">
+                <a
+                    href="https://wa.me/919552878890"
+                    target="_blank" rel="noopener noreferrer" className="hover:text-green-600">
                     <FaWhatsapp />
                 </a>
             </div>
-        </div> */}
+        </div>
     </section>
 }
