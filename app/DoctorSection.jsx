@@ -2,14 +2,14 @@ export default function DoctorSection() {
     const doctors = [
         {
             name: "Dr. Bharat Mahipal Motghare",
-            image: "/bharat.jpg",
+            image: "/bharat.png",
             qualification: "B.P.Th.",
             description:
                 "Worked with Ramakrishna Math Physiotherapy Unit Nagpur, Kingsway Hospital Nagpur",
         },
         {
             name: "Dr. Karina Puri",
-            image: "https://i.pravatar.cc/150?img=5",
+            image: "/karina.png",
             qualification: "B.P.Th.",
             description: "Worked with Matru Seva Sangh Nagpur",
         },
