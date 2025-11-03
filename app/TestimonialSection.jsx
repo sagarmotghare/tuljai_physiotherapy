@@ -3,23 +3,7 @@ import { useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
 import testimonialsJson from "./review.json";
 import Image from "next/image";
-
-const StarRating = ({ rating }) => {
-  return (
-    <div className="flex gap-[5px] place-content-center">
-      {[...Array(5)].map((_, index) => (
-        <span
-          key={index}
-          className={`text-[30px] ${
-            index < rating ? "text-yellow-400" : "text-gray-300 dark:text-gray-600"
-          }`}
-        >
-          ★
-        </span>
-      ))}
-    </div>
-  );
-};
+import StarRating from "./StarRating";
 
 export default function TestimonialSection() {
   const [index, setIndex] = useState(0);
@@ -59,7 +43,7 @@ export default function TestimonialSection() {
           alt={`${testimonial.name}-avatar`}
         />
         <StarRating rating={parseInt(testimonial.stars)} />
-        <p className="text-lg italic text-gray-700 dark:text-gray-300 mb-4 whitespace-pre-line">
+        <p className="text-lg italic text-gray-700 dark:text-gray-300 mb-4 whitespace-pre-line text-justify">
           “{testimonial.review}”
         </p>
         <p className="text-right font-semibold text-gray-800 dark:text-white">
