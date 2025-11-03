@@ -1,14 +1,14 @@
 const doctors = [
   {
     name: "Dr. Bharat Motghare",
-    image: "https://i.pravatar.cc/150?img=1",
+    image: "https://i.pravatar.cc/150?img=2",
     qualification: "B.P.Th.",
     description:
       "1 year experience in Ramakrishna Math Physiotherapy Unit, Nagpur \n3 months experience in Kingsway, Nagpur",
   },
   {
     name: "Dr. Karina Puri",
-    image: "https://i.pravatar.cc/150?img=2",
+    image: "https://i.pravatar.cc/150?img=5",
     qualification: "B.P.Th.",
     description:
       "",
@@ -16,9 +16,9 @@ const doctors = [
 ];
 
 export default function DoctorSection() {
-    return <section className="bg-white py-12 px-6 md:px-16">
+    return <section className="bg-white py-12 px-6 md:px-16 scroll-mt-20" id="doctors">
         <h3 className="text-4xl font-semibold text-center text-gray-800 mb-12">
-            Our Doctors
+            Our Team
         </h3>
         <div className={`grid grid-cols-1 md:grid-cols-2 gap-12`}>
             {doctors.map((doctor, index) => (

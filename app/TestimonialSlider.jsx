@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
-import testimonialsJson from "../google-reviews-scraper/output_Tuljai_Physiotherapy_Clinic.json"
+import testimonialsJson from "./review.json"
 import Image from "next/image";
 
 const testimonials = Object.values(testimonialsJson)
@@ -25,10 +25,11 @@ export default function TestimonialSlider() {
   }, []);
 
   const testimonial = Object.values(testimonials)[index];
-  console.log("testimonial", testimonial)
+
   return (
     <section
-      className="bg-white h-screen flex flex-col justify-center items-center px-6 md:px-16"
+    id="testimonials"
+      className="bg-white h-screen flex flex-col justify-center items-center px-6 md:px-16 scroll-mt-20"
       {...swipeHandlers}
     >
       <h3 className="text-4xl font-semibold text-center text-gray-800 mb-12">
