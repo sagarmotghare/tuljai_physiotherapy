@@ -42,7 +42,7 @@ export default function ClinicInfoSection() {
             </div>
         </div>
 
-        <div className="pt-4">
+        {/* <div className="pt-4">
             <p className="font-semibold text-gray-800 mb-2">Follow us on:</p>
             <div className="flex gap-4 text-gray-600 text-lg">
                 <a href="https://facebook.com/tuljaiphysiotherapy" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
@@ -55,6 +55,6 @@ export default function ClinicInfoSection() {
                     <FaWhatsapp />
                 </a>
             </div>
-        </div>
+        </div> */}
     </section>
 }
