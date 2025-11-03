@@ -1,7 +1,7 @@
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function ClinicInfoSection() {
-    return <section className="bg-gray-100 py-12 px-6 md:px-16" id="contact">
+    return <section className="bg-gray-100 py-12 px-6 md:px-16 scroll-mt-20" id="contact">
         <h3 className="text-3xl font-semibold text-center text-gray-800 mb-8">
             Clinic Information
         </h3>
