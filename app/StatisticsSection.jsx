@@ -1,4 +1,4 @@
-import Section from "./Section";
+import Section, { SectionHeader } from "./Section";
 
 export default function StatisticsSection() {
   return (
@@ -6,9 +6,7 @@ export default function StatisticsSection() {
       className="bg-gray-100 dark:bg-gray-900 py-12 text-center scroll-mt-20 transition-colors duration-300"
       id="stats"
     >
-      <h2 className="text-3xl font-semibold mb-6 text-gray-800 dark:text-white">
-        Clinic Statistics
-      </h2>
+      <SectionHeader> Clinic Statistics </SectionHeader>
       <div className="flex justify-center gap-12 flex-wrap">
         <div className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 w-64">
           <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400">350+</h3>

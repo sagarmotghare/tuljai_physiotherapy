@@ -1,16 +1,12 @@
 import { FaInstagram, FaPhoneAlt, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import Section from "./Section";
+import Section, { SectionHeader } from "./Section";
 
 export default function ClinicInfoSection() {
   return (
-    <Section
-      id="about"
-    >
-      <h3 className="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">
-        About Us
-      </h3>
-
+    <Section id="about">
+      <SectionHeader>About Us</SectionHeader>
+      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         <div className="text-gray-700 dark:text-gray-300 space-y-4">
           <p>
