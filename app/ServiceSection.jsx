@@ -1,4 +1,4 @@
-import Section, { SectionHeader } from "./Section";
+import Section from "./Section";
 
 const services = [
   "Short Wave Diathermy (SWD)",
@@ -23,9 +23,9 @@ const services = [
 export default function ServiceSection() {
   return (
     <Section id="services">
-      <SectionHeader>
+      <Section.Header>
         Our Physiotherapy Services
-      </SectionHeader>
+      </Section.Header>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 list-disc list-inside text-gray-800 dark:text-gray-100">
         {services.map((service, index) => (
           <li key={index} className="transition-colors duration-300">

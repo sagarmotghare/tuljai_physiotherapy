@@ -5,7 +5,7 @@ import testimonialsJson from "./review.json";
 import Image from "next/image";
 import StarRating from "./StarRating";
 import ShowMore from "./ShowMore";
-import Section, { SectionHeader } from "./Section";
+import Section from "./Section";
 
 export default function TestimonialSection() {
   const [index, setIndex] = useState(0);
@@ -34,7 +34,7 @@ export default function TestimonialSection() {
       className="justify-items-center"
       {...swipeHandlers}      
     >
-      <SectionHeader>What Our Patients Say</SectionHeader>
+      <Section.Header>What Our Patients Say</Section.Header>
       <div className="max-w-3xl bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-md transition-all duration-500 ease-in-out min-h-[400px] flex flex-col justify-between">
         <div className="flex justify-center mb-4">
           <Image

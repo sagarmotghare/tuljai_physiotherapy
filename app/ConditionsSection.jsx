@@ -1,4 +1,4 @@
-import Section, { SectionHeader } from "./Section";
+import Section from "./Section";
 
 const conditionGroups = [
   {
@@ -44,9 +44,9 @@ const conditionGroups = [
 export default function ConditionsSection() {
   return (
     <Section id="conditions">      
-      <SectionHeader>
+      <Section.Header>
         Conditions We Treat
-      </SectionHeader>
+      </Section.Header>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {conditionGroups.map((group, index) => (
           <div key={index} className="flex flex-col">

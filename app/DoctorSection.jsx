@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Section, { SectionHeader } from "./Section";
+import Section from "./Section";
 
 export default function DoctorSection() {
     const doctors = [
@@ -20,7 +20,7 @@ export default function DoctorSection() {
 
     return (
         <Section id="team" >
-            <SectionHeader>Our Team</SectionHeader>
+            <Section.Header>Our Team</Section.Header>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 {doctors.map((doctor, index) => (
                     <div key={index} className="flex flex-col items-center text-center">
