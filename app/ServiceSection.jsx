@@ -1,6 +1,6 @@
 const services = [
-  "Short Wave Diathermy",
-  "Interferential Therapy",
+  "Short Wave Diathermy (SWD)",
+  "Interferential Therapy (IFT)",
   "Intermittent Lumbar & Cervical Traction",
   "Transcutaneous Electrical Nerve Stimulation (TENS)",
   "Electrical Stimulation",

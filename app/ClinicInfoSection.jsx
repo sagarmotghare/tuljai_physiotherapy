@@ -1,4 +1,4 @@
-import { FaInstagram, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaPhoneAlt, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 export default function ClinicInfoSection() {
@@ -35,7 +35,7 @@ export default function ClinicInfoSection() {
             </a>
           </p>
 
-          <p>
+          <div>
             <strong className="font-semibold text-gray-800 dark:text-white mb-2">Follow us on:</strong>
             <div className="flex gap-4 text-gray-600 dark:text-gray-300 text-lg">
               <a
@@ -54,8 +54,16 @@ export default function ClinicInfoSection() {
               >
                 <FaWhatsapp />
               </a>
+              <a
+                href="https://www.youtube.com/@TuljaiPhysiotherapy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-red-600"
+              >
+                <FaYoutube />
+              </a>
             </div>
-          </p>
+          </div>
         </div>
 
         <div className="w-full h-64 md:h-80">

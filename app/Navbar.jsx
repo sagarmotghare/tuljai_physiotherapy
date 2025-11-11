@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-md dark:shadow-lg px-6 md:px-16 py-4 transition-colors duration-300">
       <div className="flex items-center justify-between">
-        <a className="flex items-center gap-2 cursor-pointer" href="/">
+        <a className="flex items-center gap-2 cursor-pointer" href="#">
           <img
             src="/logo-min.webp"
             alt="Clinic Logo"

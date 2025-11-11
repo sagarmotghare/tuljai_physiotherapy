@@ -12,9 +12,9 @@ export default function HeroSection() {
         <h1 className="text-5xl mb-4 max-[600px]:text-[2rem] leading-tight">
           Welcome to Tuljai Physiotherapy Clinic
         </h1>
-        <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition">
+        {/* <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition">
           Book Appointment
-        </button>
+        </button> */}
       </div>
     </div>
   );
