@@ -30,7 +30,7 @@ export default function TestimonialSection() {
   return (
     <section
       id="testimonials"
-      className="bg-white dark:bg-gray-900 h-screen flex flex-col justify-center items-center px-6 md:px-16 scroll-mt-20 transition-colors duration-300"
+      className="bg-white dark:bg-gray-900 min-h-screen flex flex-col justify-center items-center px-6 md:px-16 py-12 scroll-mt-20 transition-colors duration-300"
       {...swipeHandlers}
     >
       <h3 className="text-4xl font-semibold text-center text-gray-800 dark:text-white mb-12">
@@ -46,13 +46,13 @@ export default function TestimonialSection() {
             alt={`${testimonial.name}-avatar`}
           />
         </div>        
+        <p className="font-semibold text-gray-800 dark:text-white text-center">
+          {testimonial.name}
+        </p>
         <StarRating rating={parseInt(testimonial.stars)} />
         <ShowMore lines={4} className={`text-lg italic text-gray-700 dark:text-gray-300 mb-4`}>
           “{testimonial.review}”
         </ShowMore>
-        <p className="text-right font-semibold text-gray-800 dark:text-white">
-          — {testimonial.name}
-        </p>
       </div>
       <div className="flex gap-2 mt-6">
         {testimonials.map((_, i) => (
