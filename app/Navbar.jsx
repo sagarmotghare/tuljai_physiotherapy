@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 
@@ -18,10 +19,12 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-md dark:shadow-lg px-6 md:px-16 py-4 transition-colors duration-300">
       <div className="flex items-center justify-between">
         <a className="flex items-center gap-2 cursor-pointer" href="#">
-          <img
+          <Image
             src="/logo-min.webp"
             alt="Clinic Logo"
-            className="h-10 w-10 object-contain"
+            className="h-10 w-10 object-contain" 
+            width={100}
+            height={100}           
           />
           <span className="text-xl font-semibold text-gray-800 dark:text-white">
             Tuljai Physiotherapy Clinic

@@ -23,7 +23,7 @@ export default function TestimonialSection() {
       setIndex((prev) => (prev + 1) % testimonials.length);
     }, 5000);
     return () => clearInterval(timer);
-  }, []);
+  }, [testimonials.length]);
 
   const testimonial = testimonials[index];
 
