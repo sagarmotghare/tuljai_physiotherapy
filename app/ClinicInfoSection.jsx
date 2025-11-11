@@ -1,10 +1,10 @@
 import { FaInstagram, FaPhoneAlt, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
+import Section from "./Section";
 
 export default function ClinicInfoSection() {
   return (
-    <section
-      className="bg-gray-100 dark:bg-gray-900 py-12 px-6 md:px-16 scroll-mt-20 transition-colors duration-300"
+    <Section
       id="about"
     >
       <h3 className="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">
@@ -80,6 +80,6 @@ export default function ClinicInfoSection() {
           />
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Section from "./Section";
 
 export default function DoctorSection() {
     const doctors = [
@@ -18,10 +19,7 @@ export default function DoctorSection() {
     ];
 
     return (
-        <section
-            className="bg-white dark:bg-gray-900 py-12 px-6 md:px-16 scroll-mt-20 transition-colors duration-300"
-            id="team"
-        >
+        <Section id="team" >
             <h3 className="text-4xl font-semibold text-center text-gray-800 dark:text-white mb-12">
                 Our Team
             </h3>
@@ -47,6 +45,6 @@ export default function DoctorSection() {
                     </div>
                 ))}
             </div>
-        </section>
+        </Section>
     );
 }

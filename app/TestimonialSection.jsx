@@ -5,6 +5,7 @@ import testimonialsJson from "./review.json";
 import Image from "next/image";
 import StarRating from "./StarRating";
 import ShowMore from "./ShowMore";
+import Section from "./Section";
 
 export default function TestimonialSection() {
   const [index, setIndex] = useState(0);
@@ -28,9 +29,8 @@ export default function TestimonialSection() {
   const testimonial = testimonials[index];
 
   return (
-    <section
+    <Section
       id="testimonials"
-      className="bg-white dark:bg-gray-900 min-h-screen flex flex-col justify-center items-center px-6 md:px-16 py-12 scroll-mt-20 transition-colors duration-300"
       {...swipeHandlers}
     >
       <h3 className="text-4xl font-semibold text-center text-gray-800 dark:text-white mb-12">
@@ -67,6 +67,6 @@ export default function TestimonialSection() {
           />
         ))}
       </div>
-    </section>
+    </Section>
   );
 }

@@ -1,3 +1,5 @@
+import Section from "./Section";
+
 const services = [
   "Short Wave Diathermy (SWD)",
   "Interferential Therapy (IFT)",
@@ -20,10 +22,7 @@ const services = [
 
 export default function ServiceSection() {
   return (
-    <section
-      id="services"
-      className="bg-white dark:bg-gray-900 py-12 px-6 md:px-16 scroll-mt-20 transition-colors duration-300"
-    >
+    <Section id="services"    >
       <h3 className="text-4xl font-semibold text-center text-gray-800 dark:text-white mb-12">
         Our Physiotherapy Services
       </h3>
@@ -34,6 +33,6 @@ export default function ServiceSection() {
           </li>
         ))}
       </ul>
-    </section>
+    </Section>
   );
 }

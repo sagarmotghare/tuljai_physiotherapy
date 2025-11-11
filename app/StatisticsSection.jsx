@@ -1,6 +1,8 @@
+import Section from "./Section";
+
 export default function StatisticsSection() {
   return (
-    <section
+    <Section
       className="bg-gray-100 dark:bg-gray-900 py-12 text-center scroll-mt-20 transition-colors duration-300"
       id="stats"
     >
@@ -21,6 +23,6 @@ export default function StatisticsSection() {
           <p className="text-gray-700 dark:text-gray-300">Months of Service</p>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

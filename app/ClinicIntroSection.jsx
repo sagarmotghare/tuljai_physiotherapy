@@ -1,6 +1,8 @@
+import Section from "./Section";
+
 export default function ClinicIntroSection() {
   return (
-    <section className="bg-white dark:bg-gray-900 py-12 px-6 text-center text-gray-800 dark:text-gray-100 transition-colors duration-300">
+    <Section className="text-gray-800 dark:text-gray-100 text-center">
       <h1 className="text-3xl font-semibold text-gray-800 dark:text-white mb-4">
         Trusted Physiotherapy Care in Saoner
       </h1>
@@ -10,6 +12,6 @@ export default function ClinicIntroSection() {
       <p className="text-lg mt-4 max-[600px]:text-sm">
         Tuljai Physiotherapy Clinic offers expert physiotherapy in Saoner, serving patients across the Nagpur district. We are committed to restoring mobility, relieving pain, and improving lives through compassionate, evidence-based care.
       </p>
-    </section>
+    </Section>
   );
 }
