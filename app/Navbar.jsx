@@ -5,7 +5,7 @@ import { HiMenu, HiX } from "react-icons/hi";
 
 const links = [
   { title: "Services", href: "#services" },
-  { title: "Treatement Conditions", href: "#conditions" },
+  // { title: "Treatement Conditions", href: "#conditions" },
   { title: "Statistics", href: "#stats" },
   { title: "Team", href: "#team" },
   { title: "Testimonials", href: "#testimonials" },
@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between">
         <a className="flex items-center gap-2 cursor-pointer" href="#">
           <Image
-            src="/logo-min.webp"
+            src="/logo.png"
             alt="Clinic Logo"
             className="h-10 w-10 object-contain" 
             width={100}

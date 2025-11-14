@@ -8,6 +8,7 @@ import Navbar from "./Navbar";
 import ServiceSection from "./ServiceSection";
 import StatisticsSection from "./StatisticsSection";
 import TestimonialSection from "./TestimonialSection";
+import TestSection from "./TestSection";
 
 export default function Home() {
 	return (
@@ -15,8 +16,9 @@ export default function Home() {
 			<Navbar />
 			<HeroSection />
 			<ClinicIntroSection />
-			<ServiceSection />
-			<ConditionsSection />
+			{/* <ServiceSection /> */}
+			<TestSection/>
+			{/* <ConditionsSection /> */}
 			<StatisticsSection />
 			<DoctorSection />
 			<TestimonialSection />
