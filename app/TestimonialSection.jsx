@@ -32,7 +32,7 @@ export default function TestimonialSection() {
     <Section
       id="testimonials"
       className="justify-items-center"
-      {...swipeHandlers}      
+      {...swipeHandlers}
     >
       <Section.Header>What Our Patients Say</Section.Header>
       <div className="max-w-3xl bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-md transition-all duration-500 ease-in-out min-h-[400px] flex flex-col justify-between">
@@ -44,14 +44,14 @@ export default function TestimonialSection() {
             className="rounded-full"
             alt={`${testimonial.name}-avatar`}
           />
-        </div>        
+        </div>
         <p className="font-semibold text-gray-800 dark:text-white text-center">
           {testimonial.name}
         </p>
         <StarRating rating={parseInt(testimonial.stars)} />
-        <ShowMore lines={4} className={`text-lg italic text-gray-700 dark:text-gray-300 mb-4`}>
+        {testimonial.review !== "" && <ShowMore lines={4} className={`text-lg italic text-gray-700 dark:text-gray-300 mb-4`}>
           “{testimonial.review}”
-        </ShowMore>
+        </ShowMore>}
       </div>
       <div className="flex gap-2 mt-6">
         {testimonials.map((_, i) => (

@@ -19,7 +19,7 @@ export default function Home() {
 			{/* <ServiceSection /> */}
 			<TestSection/>
 			{/* <ConditionsSection /> */}
-			<StatisticsSection />
+			{/* <StatisticsSection /> */}
 			<DoctorSection />
 			<TestimonialSection />
 			<ClinicInfoSection />

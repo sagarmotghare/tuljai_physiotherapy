@@ -10,18 +10,18 @@ export default function DoctorSection() {
             description:
                 "Worked with Ramakrishna Math Physiotherapy Unit Nagpur, Kingsway Hospital Nagpur",
         },
-        {
-            name: "Dr. Karina Puri",
-            image: "/karina.png",
-            qualification: "B.P.Th.",
-            description: "Worked with Matru Seva Sangh Nagpur",
-        },
+        // {
+        //     name: "Dr. Karina Puri",
+        //     image: "/karina.png",
+        //     qualification: "B.P.Th.",
+        //     description: "Worked with Matru Seva Sangh Nagpur",
+        // },
     ];
 
     return (
         <Section id="team" >
             <Section.Header>Our Team</Section.Header>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-12">
                 {doctors.map((doctor, index) => (
                     <div key={index} className="flex flex-col items-center text-center">
                         <Image

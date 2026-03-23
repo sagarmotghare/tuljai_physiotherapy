@@ -2,36 +2,176 @@
   "review1": {
     "name": "Pooja Vaidya",
     "stars": "4 stars",
-    "date": "3 months ago",
+    "date": "7 months ago",
     "review": "I had recommended Tuljai Physiotherapy Clinic to one of my relatives, and we were extremely pleased with the experience.\nFrom the very first session, the physiotherapists demonstrated a deep understanding of the condition and created a personalized treatment plan. The progress was clearly noticeable within a few sessions.\nThe clinic is well-equipped, clean, and runs efficiently with minimal waiting time. I truly appreciate the dedication of the Tuljai Physiotherapy Clinic and would confidently recommend it to anyone in need of quality physiotherapy care.",
     "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIDtz9M35p8cxoT9UcxA7yyfSuvr73evfhAVdvo76F4yaxZDg=w36-h36-p-rp-mo-br100"
   },
   "review2": {
     "name": "Simran Wade",
     "stars": "5 stars",
-    "date": "2 months ago",
+    "date": "7 months ago",
     "review": "I’ve been visiting Tuljai Physiotherapy Clinic for a while now, and I can confidently say Dr. Bharat is the best physiotherapist in Saoner. It was really hard for me at first, but somehow I made it.He is professional, friendly, and truly cares about his patients. The treatment has been very effective, and I’m recovering really well.\nHighly recommend this clinic to anyone looking for quality physiotherapy care!",
     "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVVmMp5Ad6yD88h07vyqhGGuNioE8p5AtjYK45kEDf0W5DilDgE=w36-h36-p-rp-mo-br100"
   },
   "review3": {
     "name": "Aasim Saood",
     "stars": "5 stars",
-    "date": "3 months ago",
+    "date": "7 months ago",
     "review": "I had a wonderful experience at TULJAI PHYSIOTHERAPY CLINIC ! DR. BHARAT and his team is highly professional,\nknowledgeable, and genuinely caring. From the very first visit, I was given a personalized treatment plan tailored to my condition.\n\nThe clinic is clean, well-equipped, and runs on time, which made every session smooth and stress-free. therapist  took the time to explain everything and guided me through exercises patiently, ensuring I understood each step.\n\nThanks to their help, I’ve seen significant improvement in my mobility and pain levels. I highly recommend this clinic to anyone looking for effective and compassionate physiotherapy care",
     "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJ6RaOcgR24fjQIPLimb6nkbW2J3vAk41F2joNJiSREXfcThcc=w36-h36-p-rp-mo-br100"
   },
   "review4": {
     "name": "KAPIL DESHMUKH",
     "stars": "5 stars",
-    "date": "3 months ago",
+    "date": "8 months ago",
     "review": "“I went to Tuljai physiotherapy clinic after a friend recommended it to me. My friend was impressed with her PT because he talked her through everything and cared enough to personally follow-up after her first visit. I was happy to find that I received the same invested care. My PT met with me and gave me a full evaluation. I was so appreciative because he found a previously undiagnosed problem. I have had constant neck pain and headaches for a few years, which I always attributed to stress; and within a matter of minutes, my PT carefully and gently corrected my neck without any sudden jerks or tugs. I have been pain free and headache free ever since! This was in addition to treating the problem that brought me to Tuljai PT in the first place. Also, I was grateful that he talked me through the treatment and made sure I was comfortable. His staff are incredibly friendly and professional. Bradley Physical Therapy goes above and beyond with patient care, and I would recommend it to everyone in need.”",
-    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXYsfD2rq7uDs0yozSBH65wZ65pZBo2o5_OnSwG0G6O7Alfn-X0=w36-h36-p-rp-mo-br100"
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWWDT36aj4bVEAGKP14lvbwJhhKFBrUgyvuTgePw4PfFT5jsHQi3w=w36-h36-p-rp-mo-ba2-br100"
   },
   "review5": {
     "name": "Harshal Kalidas Dhandre",
     "stars": "5 stars",
-    "date": "3 months ago",
+    "date": "8 months ago",
     "review": "Excellent clinic professional doctor with advance physiotherapy equipment very clean and hygiene doctor counseling very well which help me to recover fast",
     "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVy1Mdjds6A2W_x64ST5eF64e5t9SCLT5rqJoxuJQ4rnRtXNcSC=w36-h36-p-rp-mo-br100"
+  },
+  "review6": {
+    "name": "Maxx gaming YT",
+    "stars": "5 stars",
+    "date": "an hour ago",
+    "review": "This is the best physiotherapy clinic in Saoner. I got very good response from Dr Bharat Sir.",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUOvZ_EK4Bcq2QDwsHV6obJeUGwH7M4xW6IV7Hp_qEEF_5dBCdq=w36-h36-p-rp-mo-br100"
+  },
+  "review7": {
+    "name": "rushikesh nimbalkar",
+    "stars": "5 stars",
+    "date": "an hour ago",
+    "review": "I had a great experience at Tuljai Physiotherapy Clinic. The staff is professional, caring, and explains everything clearly. I noticed good improvement in my condition within a short time. Highly recommended for quality physiotherapy care.",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocL9fIMNfSazwhy1Ylp5523CGYVME1XWrRLL7KL_6XWBYBQOgQ=w36-h36-p-rp-mo-br100"
+  },
+  "review8": {
+    "name": "Dr. Nitesh Tantarpale",
+    "stars": "5 stars",
+    "date": "3 hours ago",
+    "review": "Do your rehab with best physio in saoner area",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUhu-FhdLQr6eIKh_oB-DU_PNIypavybP9Ex5M707whnYHUH6Y6=w36-h36-p-rp-mo-br100"
+  },
+  "review9": {
+    "name": "Piyush Balki",
+    "stars": "5 stars",
+    "date": "19 hours ago",
+    "review": "Best physiotherapy clinic in saoner",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWSOIxyr7r1g0icUdSlrzTzu1_84hEEWrLKXTIuM5_KKVgSYLxZvw=w36-h36-p-rp-mo-br100"
+  },
+  "review10": {
+    "name": "Itsme Jagirdar",
+    "stars": "5 stars",
+    "date": "20 hours ago",
+    "review": "Excellent physiotherapy care with a highly knowledgeable and supportive approach. Treatment was effective, and recovery was faster than expected. Highly recommended.",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJh2V5Dz7vuIb2srBkfH4pETYv8nieIv1qmJKivb_z8p3HfDg=w36-h36-p-rp-mo-br100"
+  },
+  "review11": {
+    "name": "Sayali Sakharwade",
+    "stars": "5 stars",
+    "date": "21 hours ago",
+    "review": "Had a great experience at Tuljai clinic. Doctor Bharat explains everything clearly to the patient and provides very effective treatment . The staff is so polite,cooperative  and professional. Highly recommended for anyone who is seeking a good physiotherapy care.",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKsxlf8HOnnXhIIB6_tnUOwITpNS-v9Y6jkrygaLBmGG8ur2Q=w36-h36-p-rp-mo-br100"
+  },
+  "review12": {
+    "name": "Sanchita Sontakke",
+    "stars": "5 stars",
+    "date": "21 hours ago",
+    "review": "Excellent physiotherapy clinic with highly knowledgeable and skilled therapists. The treatment approach is very professional and personalized. Highly recommended!!!",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLnJz5wi8C9zuHS9zkiidE8yAyIr8ZY_9xiz94mBV6tGlmE3zOk=w36-h36-p-rp-mo-br100"
+  },
+  "review13": {
+    "name": "Sakshi Jiwtode",
+    "stars": "5 stars",
+    "date": "21 hours ago",
+    "review": "Good experience overall. Dr. Bharat is knowledgeable and explains the treatment clearly. He makes you feel comfortable, and the sessions felt personalized and helpful for recovery.  Recommended for physiotherapy treatment.",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLtO8J55DAyxYVoCFqwp_bpFJmvjl_zBZOpG1qXqPiW9kFDGA=w36-h36-p-rp-mo-br100"
+  },
+  "review14": {
+    "name": "Vedant Kalsait",
+    "stars": "5 stars",
+    "date": "21 hours ago",
+    "review": "I had an excellent experience with Dr. Bharat during my rehabilitation after ACL ligament surgery. From the very beginning, he guided me with the right exercises, proper techniques, and constant motivation, which played a huge role in my recovery.\n\nHis knowledge, patience, and personalized approach made me feel confident and comfortable throughout the entire process. Thanks to his support and expertise, I’ve achieved very good results and regained strength and mobility much better than I expected.\n\nI highly recommend Dr. Bharat to anyone looking for effective physiotherapy and rehabilitation. Truly grateful for his help in my recovery journey",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJRH5Eb2BjHwefNkAJKxkwPKDMCiLiBFuN-wLqMEkh9dZBsng=w36-h36-p-rp-mo-br100"
+  },
+  "review15": {
+    "name": "prashik lonare",
+    "stars": "5 stars",
+    "date": "21 hours ago",
+    "review": "Best physiotherapy clinic in saoner with understanding and down to earth , relatable physicist with Ace in his work,this was about my experience",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVOK8Tt2pu5cfmgkCdGv80TvlFrGsiJDuqwWdw-CFa7V-N5frKH=w36-h36-p-rp-mo-ba2-br100"
+  },
+  "review16": {
+    "name": "KAREENA PURI",
+    "stars": "5 stars",
+    "date": "21 hours ago",
+    "review": "Best place in Saoner for Physiotherapy with latest modalities and Good Ambience. Dr. Bharat is very kind, helpful and he is having ability to regain your strength and recover from your medical conditions. Please do visit to recover from your pain",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKXDBeo_oj6FRdtuFn-vbCbJP64fFFJ-oY8_grhqLgZwAomIA=w36-h36-p-rp-mo-br100"
+  },
+  "review17": {
+    "name": "Mahipal Motghare",
+    "stars": "5 stars",
+    "date": "22 hours ago",
+    "review": "I have seen the dedication and hard work my son Dr. Bharat Motghare puts into Tuljai Physiotherapy Clinic Saoner. He treats every patient with honesty, patience, and proper care. It makes me happy to see people getting relief and recovering well. I truly recommend this clinic to anyone in need of good physiotherapy treatment.",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWi0_S7sRUziXbGIV1AbupCX6mkHhNhONZXXFuGouLzMwCiNK8=w36-h36-p-rp-mo-br100"
+  },
+  "review18": {
+    "name": "Pratiksha Raut",
+    "stars": "5 stars",
+    "date": "an hour ago",
+    "review": "I am very proud of Tuljai Physiotherapy Clinic Saoner, run by my son Dr. Bharat Motghare. Here, every patient is examined very carefully and given the right treatment. The specialty of this clinic is to treat the patients politely, explain them and make sincere efforts for their speedy recovery. The patients feel very comfortable due to the clean and calm environment.\nI would like to tell everyone from the bottom of my heart that for good and reliable physiotherapy, definitely visit Tuljai Physiotherapy Clinic Saoner.",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWhnpQMGIBrEVBAfOW5zmj5yFTNWJ0N08DkBxe0UCCW9coB7OY=w36-h36-p-rp-mo-br100"
+  },
+  "review19": {
+    "name": "Akash Borekar",
+    "stars": "5 stars",
+    "date": "an hour ago",
+    "review": "",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXfgaA6ZcTBdyQzYKcHmq7OaMZFku08oPxZT7vl2ykcsvlQXOBa=w36-h36-p-rp-mo-br100"
+  },
+  "review20": {
+    "name": "Ashit Lonare",
+    "stars": "5 stars",
+    "date": "21 hours ago",
+    "review": "",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVZsBPIZSIIT4mwwxA1Xp-hnGtAUC4JXHOSN26eAP-BYUw-0Go=w36-h36-p-rp-mo-br100"
+  },
+  "review21": {
+    "name": "Shivam Dahake",
+    "stars": "5 stars",
+    "date": "21 hours ago",
+    "review": "",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUSYhOpF-zTaMfO0f9c-0c1YVa7JN11ggY_nus_E0Smm8Wh5Fk=w36-h36-p-rp-mo-br100"
+  },
+  "review22": {
+    "name": "Mangala Motghare",
+    "stars": "5 stars",
+    "date": "22 hours ago",
+    "review": "",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocK4N1BG4JeBMv8kSxzDdAoqaTsgfb94j6fRdtiYX9l__oFV8w=w36-h36-p-rp-mo-br100"
+  },
+  "review23": {
+    "name": "Chandrashekhar Mahajan",
+    "stars": "5 stars",
+    "date": "a day ago",
+    "review": "",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJVXEreyE0jBjfi8R5TL5qencgZGmD55hCmcho0oLkCGy3mPw=w36-h36-p-rp-mo-br100"
+  },
+  "review24": {
+    "name": "DESHMUKH PHYSIOTHERAPY",
+    "stars": "5 stars",
+    "date": "a day ago",
+    "review": "",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjW-YJWVQTq-Js68Lob7zUgtcY9OV4Cx0aPm8a5hZSYdlSh5jw=w36-h36-p-rp-mo-br100"
+  },
+  "review25": {
+    "name": "piyu Balki",
+    "stars": "5 stars",
+    "date": "a week ago",
+    "review": "",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUH5YfZrW8ZGOxqLjCJqffVckoXu8IK7ibvQnpzqZjm1NJ9UyY=w36-h36-p-rp-mo-br100"
   }
 }
