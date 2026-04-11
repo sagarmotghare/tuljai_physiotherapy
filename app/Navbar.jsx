@@ -10,6 +10,7 @@ const links = [
   { title: "Team", href: "#team" },
   { title: "Testimonials", href: "#testimonials" },
   { title: "About", href: "#about" },
+  { title: "About Us", href: "/about-us" },
 ]
 
 export default function Navbar() {

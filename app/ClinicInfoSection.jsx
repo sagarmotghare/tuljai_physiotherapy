@@ -5,7 +5,7 @@ import Section from "./Section";
 export default function ClinicInfoSection() {
   return (
     <Section id="about">
-      <Section.Header>About Us</Section.Header>
+      <Section.Header>About</Section.Header>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         <div className="text-gray-700 dark:text-gray-300 space-y-4">
