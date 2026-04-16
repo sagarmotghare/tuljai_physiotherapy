@@ -7,29 +7,11 @@ const therapies = [
         icon: FaRunning,
         title: "Orthopedic Therapy",
         description:"Rehabilitation for joint, muscle, and bone injuries.",
-        // items: [
-        //     "Rheumatism and Osteoarthritis",
-        //     "Spondylosis, Sciatica",
-        //     "Pain in All Joints",
-        //     "Lower Back Pain, Arm Pain, Neck Pain",
-        //     "Knee Pain",
-        //     "Slipped Disc",
-        //     "Frozen Shoulder (Stiff Shoulder)",
-        //     "Wrist or Elbow Pain",
-        //     "Ligament Injury",
-        //     "Heel Pain"
-        // ],
     },
     {
         icon: FaBrain,
         title: "Neurological Therapy",
         description: "Treatment for stroke, Parkinson’s, and nerve conditions.",
-    //     items:[
-    //   "Paralysis, Facial Paralysis",
-    //   "Pediatric Paralysis (Cerebral Palsy)",
-    //   "Parkinson’s Disease",
-    //   "Exercises for Children with Intellectual Disabilities"
-    // ]
     },
     {
         icon: FaHeartbeat,
@@ -43,7 +25,7 @@ const therapies = [
     },
 ];
 
-export default function TestSection() {
+export default function ServicesSection() {
     return <Section id="services" >
         <Section.Header className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-10">
             Our Therapy Services

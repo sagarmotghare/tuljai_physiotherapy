@@ -5,8 +5,6 @@ import { HiMenu, HiX } from "react-icons/hi";
 
 const links = [
   { title: "Services", href: "#services" },
-  // { title: "Treatement Conditions", href: "#conditions" },
-  { title: "Statistics", href: "#stats" },
   { title: "Team", href: "#team" },
   { title: "Testimonials", href: "#testimonials" },
   { title: "About", href: "#about" },
@@ -19,7 +17,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-md dark:shadow-lg px-6 md:px-16 py-4 transition-colors duration-300">
       <div className="flex items-center justify-between">
-        <a className="flex items-center gap-2 cursor-pointer" href="#">
+        <a className="flex items-center gap-2 cursor-pointer" href="/">
           <Image
             src="/logo.png"
             alt="Clinic Logo"
