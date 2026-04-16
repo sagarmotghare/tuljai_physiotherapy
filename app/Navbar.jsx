@@ -4,9 +4,9 @@ import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 
 const links = [
-  { title: "Services", href: "#services" },
-  { title: "Team", href: "#team" },
-  { title: "Testimonials", href: "#testimonials" },
+  { title: "Services", href: "/#services" },
+  { title: "Team", href: "/#team" },
+  { title: "Testimonials", href: "/#testimonials" },
   { title: "About", href: "#about" },
   { title: "About Us", href: "/about-us" },
 ]

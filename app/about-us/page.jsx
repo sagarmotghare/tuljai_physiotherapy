@@ -5,9 +5,9 @@ export default () => {
             <p className="text-base mb-4">Under the proprietorship of <strong className="font-bold">Dr. Bharat Mahipal Motghare</strong>, Tuljai Physiotherapy Clinic is a dedicated center for physiotherapy, serving patients in <strong className="font-bold">Saoner and across the Nagpur district</strong>. Officially inaugurated on <strong className="font-bold">16 January 2025</strong> by <strong className="font-bold">M.L.A. Dr. Ashishbabu Deshmukh</strong>, the clinic was established to provide <strong className="font-bold">high-quality, evidence-based care</strong> aimed at restoring mobility, relieving pain, and improving overall quality of life.</p>
             <h2 className="text-3xl font-semibold mb-3">Professional Training &amp; Experience</h2>
             <ul className="list-disc pl-6 mb-4">
-                <li className="mb-2"><strong className="font-bold">Internship:</strong> KIMS-Kingsway Hospitals, Nagpur</li>
                 <li className="mb-2"><strong className="font-bold">Observership:</strong> Ramakrishna Math Physiotherapy Unit, Nagpur</li>
-                <li className="mb-2"><strong className="font-bold">Clinical Practice:</strong> One year under Dr. Govind Fule at Saoner Physiotherapy Clinic</li>
+                <li className="mb-2"><strong className="font-bold">Internship:</strong> KIMS-Kingsway Hospitals, Nagpur</li>
+                <li className="mb-2"><strong className="font-bold">Clinical Practice:</strong> One year under Dr. Govind Fule at Saoner Physiotherapy Clinic, Saoner</li>
             </ul>
             <h2 className="text-3xl font-semibold mb-3">Certifications &amp; Specialized Skills</h2>
             <ul className="list-disc pl-6 mb-4">

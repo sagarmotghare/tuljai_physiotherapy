@@ -9,7 +9,7 @@ import Section from "./Section";
 
 export default function TestimonialSection() {
   const [index, setIndex] = useState(0);
-  const testimonials = Object.values(testimonialsJson);
+  const testimonials = Object.values(testimonialsJson).filter(testimonial => testimonial.review);
 
   const swipeHandlers = useSwipeable({
     onSwipedLeft: () => setIndex((prev) => (prev + 1) % testimonials.length),
